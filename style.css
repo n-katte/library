@@ -1,4 +1,5 @@
 body{
+  
     margin:0;
     padding: 0;
 }
@@ -12,7 +13,7 @@ body{
 header .container{
    
     padding: 20px;
-    background-color: orange;
+    background-color: white;
 }
 header.container.logo{
     display: inline;
@@ -20,5 +21,85 @@ header.container.logo{
 header .container .nav{
     display: flex;
     float: right;
-    margin: 0px ;
+    
+    
 }
+header .container .nav a{
+    /* margin-top: 10px; */
+    padding: 3px ;
+    background-color: whitesmoke;
+    /* border: 1px solid red; */
+    text-decoration: none;
+    font-size: 200%;
+    margin: 2px;
+    margin-bottom: 3px;
+    color: black;
+    transition: 0.5s ease;
+    
+}
+.container .logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 250%
+}
+header .container .nav a:hover{
+    background:orange;
+    
+}
+
+header .b{
+    display: flex;
+    /* border: 1px solid red; */
+}
+header .b  .b2{
+     width: 35%;
+    height: 42vh; 
+} 
+header .container2 {
+    background-color: white;
+    display: flex;
+    text-decoration: none;
+    
+}
+header .container2{
+    padding: 20px;
+}
+header .container2 .cards{
+    border: 1px solid white;
+    /* margin : 10px; */
+    /* border: 2px solid rgb(255, 255, 255); */
+    height: 400px;
+    width:  300px;
+    color:black;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* box-shadow: 1px 1px 10px 6px white; */
+    background-color: orange;   
+    box-shadow: 1px 1px 20px 6px gray;
+}
+header .container2 .cards span{
+    display: block;
+    background-color: white;
+    opacity: 90%;
+    font-size: 190%;
+    box-shadow: 1px 0px 7px 2px black;
+    margin: 10px;
+    padding-left: 10px ;
+    font-weight: 900;
+    color:black;
+    
+}
+header .container2 .cards ul {
+    background-color:white;
+    padding: 30px;
+    font-size: 110%;
+    height: 300px;
+}
+header .container2 .cards p {
+    background-color:white;
+    padding: 30px;
+    font-size: 100%;
+    height: 250px;
+}
+
